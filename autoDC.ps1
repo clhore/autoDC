@@ -3,7 +3,7 @@ function banner {
 
 	$banner = @()
 	$banner += ''
-    $banner += '             _        _____   _____'
+    	$banner += '             _        _____   _____'
 	$banner += ' _____      | |_ ___ |  __ \ / ____|'
 	$banner += '|  _  \/   \| __/ _ \| |  | | | '
 	$banner += '| |_| ||(_) | || (_) | |__| | |____   [By Adrian Lujan Munoz (aka clhore)]'
