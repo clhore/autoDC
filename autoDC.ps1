@@ -132,8 +132,8 @@ function createUsers {
         
         } Catch { 
             Write-Output ''
-		    Write-Host "[x] Error creando el usuario >> $user" -ForegroundColor 'Red'
-		    Write-Output ''
+	    Write-Host "[x] Error creando el usuario >> $user" -ForegroundColor 'Red'
+	    Write-Output ''
         }
         
         $count += 1
