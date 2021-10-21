@@ -70,7 +70,6 @@ function helpPanel {
 
 function redConfig {
 
-    Set-NetIPInterface -InterfaceAlias Ethernet0 -Dhcp Disabled
     New-NetIPAddress @ipParams
     
     Set-DnsClientServerAddress @dnsParams
