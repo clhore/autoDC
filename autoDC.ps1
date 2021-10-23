@@ -16,7 +16,7 @@ function banner {
 
 # comprobar servidor NTP
 # $ w32tm /dumpreg /subkey:parameters
-# sincronizar relog con la rediris
+# sincronizar relog con la rediris (en este caso son los servidores de Madrid)
 # $ w32tm /config /syncfromflags:manual /manualpeerlist:"hora.rediris.es pulsar.rediris.es" /update
 
 # Configuracion de la red
