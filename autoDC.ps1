@@ -20,7 +20,7 @@ function banner {
 # $ w32tm /config /syncfromflags:manual /manualpeerlist:"EB-Valencia1.rediris.es EB-Valencia0.rediris.es" /update
 
 # Configura los parametros de la interfaz
-$ifIndex = 2 # Revisalo con el comando Get-NetAdapter
+$Global:ifIndex = 2 # Revisalo con el comando Get-NetAdapter
 
 # Configuracion de la red
 $Global:ipParams = @{
