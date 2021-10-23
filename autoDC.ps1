@@ -14,6 +14,11 @@ function banner {
 	}
 }
 
+# comprobar servidor NTP
+# $ w32tm /dumpreg /subkey:parameters
+# sincronizar relog con la rediris
+# $ w32tm /config /syncfromflags:manual /manualpeerlist:"hora.rediris.es pulsar.rediris.es" /update
+
 # Configuracion de la red
 $Global:ipParams = @{
     InterfaceIndex = 2 # Normalmente es el 2 si lo instalas en una maquina virtual pero revisalo con el comando Get-NetAdapter
