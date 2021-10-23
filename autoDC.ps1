@@ -19,16 +19,19 @@ function banner {
 # sincronizar relog con la rediris (en este caso son los servidores de Valencia)
 # $ w32tm /config /syncfromflags:manual /manualpeerlist:"EB-Valencia1.rediris.es EB-Valencia0.rediris.es" /update
 
+# Configura los parametros de la interfaz
+$ifIndex = 2 # Revisalo con el comando Get-NetAdapter
+
 # Configuracion de la red
 $Global:ipParams = @{
-    InterfaceIndex = 2 # Normalmente es el 2 si lo instalas en una maquina virtual pero revisalo con el comando Get-NetAdapter
+    InterfaceIndex = $ifIndex
     IPAddress = "192.168.188.125"
     DefaultGateway = "192.168.188.1"
     PrefixLength = 24
     AddressFamily = "IPv4"
 }
 $Global:dnsParams = @{
-    InterfaceIndex = 2
+    InterfaceIndex = $ifIndex
     ServerAddresses = ("8.8.8.8","8.8.4.4")
 }
 
