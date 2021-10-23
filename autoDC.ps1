@@ -29,7 +29,7 @@ $Global:ipParams = @{
 }
 $Global:dnsParams = @{
     InterfaceIndex = 2
-    ServerAddresses = ("1.1.1.1","8.8.8.8")
+    ServerAddresses = ("8.8.8.8","8.8.4.4")
 }
 
 # Configuracion del DC
