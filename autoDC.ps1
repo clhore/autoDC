@@ -3,7 +3,7 @@ function banner {
 
 	$banner = @()
 	$banner += ''
-    $banner += '             _        _____   _____'
+    	$banner += '             _        _____   _____'
 	$banner += ' _____      | |_ ___ |  __ \ / ____|'
 	$banner += '|  _  \/   \| __/ _ \| |  | | | '
 	$banner += '| |_| ||(_) | || (_) | |__| | |____   [By Adrian Lujan Munoz (aka clhore)]'
@@ -57,15 +57,15 @@ function helpPanel {
     $textColor2 = 'yellow'
 
 
-	Write-Output ''
+    Write-Output ''
     Write-Host '    1. Importe los modulos:' -Foreground $textColor
     Write-Output ''
     Write-Host '          - Import-Module .\autoDC.ps1' -Foreground $textColor2
     Write-Output ''
     Write-Host '    2. Ejecute el comando redConfig'  -Foreground $textColor
     Write-Output ''
-	Write-Host "    3. Ejecuta el comando namePc_and_domainServicesInstallation_1" -Foreground $textColor
-	Write-Output ''
+    Write-Host "    3. Ejecuta el comando namePc_and_domainServicesInstallation_1" -Foreground $textColor
+    Write-Output ''
     Write-Host "    4. Tras el rpimer reinicio ejecute el comando domainServicesInstallation_2" -Foreground $textColor
     Write-Output ''
     Write-Host "          - En este punto equipo deberia quedar configurado como DC. " -Foreground $textColor2
