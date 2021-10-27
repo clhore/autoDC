@@ -3,11 +3,12 @@ function banner {
 
 	$banner = @()
 	$banner += ''
-    	$banner += '             _        _____   _____'
-	$banner += ' _____      | |_ ___ |  __ \ / ____|'
-	$banner += '|  _  \/   \| __/ _ \| |  | | | '
-	$banner += '| |_| ||(_) | || (_) | |__| | |____   [By Adrian Lujan Munoz (aka clhore)]'
-	$banner += ' \__,_|\___/ \__\___/|_____/ \_____|'
+	$banner =+ '             _        _____   _____' 
+	$banner =+ '            | |      |  __ \ / ____|'
+	$banner =+ '  __ _ _   _| |_ ___ | |  | | |'     
+	$banner =+ ' / _` | | | | __/ _ \| |  | | |'     
+	$banner =+ '| (_| | |_| | || (_) | |__| | |____   [By Adrian Lujan Munoz (aka clhore)]' 
+	$banner =+ ' \__,_|\__,_|\__\___/|_____/ \_____|'
 	$banner += ''
 	$banner | foreach-object {
 	    Write-Host $_ -ForegroundColor (Get-Random -Input @('Cyan','Green','gray','white', 'yellow'))
