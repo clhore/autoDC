@@ -77,3 +77,13 @@ Ejecucion del script PowerShell
 <div align="center">
   <img src="img/autoDC_2.png">
 </div>
+
+<div align="center">
+  <h4>Configuramos la red, utilizando la funcion de redConfig.</h4>
+</div>
+
+    redConfig
+    
+<div align="center">
+  <img src="img/autoDC_3.png">
+</div>
