@@ -64,6 +64,16 @@ Ejecucion del script PowerShell
 
     Import-Module .\autoDC
     
-<div align="">
+<div align="center">
   <img src="img/autoDC_1.png">
+</div>
+
+<div align="center">
+  <h4>Ejecutamos la funcion helpPanel.</h4>
+</div>
+
+    helpPanel
+    
+<div align="center">
+  <img src="img/autoDC_2.png">
 </div>
