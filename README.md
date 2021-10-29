@@ -36,3 +36,10 @@ CONFIGURACION
 </div>
 <h4>USUARIOS Y GRUPOS</h4>
 <p>En este caso no es obligatorio rellenarlo. Y aque la creacion de grupos y usuarios desde el script de powershell no es obligatoria.</p>
+<ul>
+    <li>namePc</li>
+    <li>domainName</li>
+</ul> 
+<div align="center">
+  <img src="img/conf/userGrup.png">
+</div>
