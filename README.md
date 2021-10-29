@@ -79,11 +79,41 @@ Ejecucion del script PowerShell
 </div>
 
 <div align="center">
-  <h4>Configuramos la red, utilizando la funcion de redConfig.</h4>
+  <h4>Configuramos la red, utilizando la funcion redConfig.</h4>
 </div>
 
     redConfig
     
 <div align="center">
   <img src="img/autoDC_3.png">
+</div>
+
+<div align="center">
+  <h4>Ahora comenzamos con el cambio de nombre del equipo y con la parte 1 de la creacion del DC. Una vez acabe se reiniciara y deberas volver ha abrir PowerShell y importar el modulo.</h4>
+</div>
+
+    namePc_and_domainServicesInstallation_1
+    
+<div align="center">
+  <img src="img/autoDC_4.png">
+</div>
+
+<div align="center">
+  <h4>Una vez se ha reiniciado importamos el modulo otravez.</h4>
+</div>
+
+    Import-Module .\autoDC
+    
+<div align="center">
+  <img src="img/autoDC_5.png">
+</div>
+
+<div align="center">
+  <h4>Ejecutamos la parte dos de la creacion del DC. Una vez lo ejecutes te pedira la contraseña de Administrador. Cuando acabe se reiniciara.</h4>
+</div>
+
+    namePc_and_domainServicesInstallation_2
+    
+<div align="center">
+  <img src="img/autoDC_6.png">
 </div>
