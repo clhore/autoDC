@@ -63,4 +63,7 @@ Ejecucion del script PowerShell
 </div>
 
     Import-Module .\autoDC
-
+    
+<div align="center">
+  <img src="img/autoDC_1.png">
+</div>
