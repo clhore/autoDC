@@ -26,4 +26,7 @@ CONFIGURACION
 </div>
 
 <h4>NOMBRE DEL EQUIPO Y DOMINIO</h4>
+<div align="center">
+  <img src="img/conf/userDomain.png">
+</div>
 <h4>USUARIOS Y GRUPOS</h4>
