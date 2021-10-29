@@ -37,14 +37,14 @@ CONFIGURACION
 <h4>USUARIOS Y GRUPOS</h4>
 <p>En este caso no es obligatorio rellenarlo. Y aque la creacion de grupos y usuarios desde el script de powershell no es obligatoria.</p>
 <ul>
-    <li>Usuario</li>
+    <li>USUARIO:</li>
     <dl>
       <dt>ADUsers</dt>
-      <dd>Nombre del usuario que se usara para iniciar sesion en el sistema</dd>
+      <dd>Nombre del usuario que se usara para iniciar sesion en el sistema.</dd>
       <dt>ADPasswords</dt>
-      <dd>Contraseña de la cuenta de usuario<dd>
+      <dd>Contraseña de la cuenta de usuario.<dd>
       <dt>ADUserNames</dt>
-      <dd>Nombre completo del usuario solo se puede poner el nombre y un apellido si pones dos apellidos, el 2º apellido no se usara</dd>
+      <dd>Nombre completo del usuario. Solo se puede poner el nombre y un apellido si pones dos apellidos, el 2º apellido no se usara.</dd>
     </dl>
     <li>domainName</li>
 </ul> 
