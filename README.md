@@ -15,6 +15,12 @@ Este escript está realizado para Windows Server 2016 por lo que si se ejecuta e
 CONFIGURACION
 ======
 <h4>INTERFAZ DE RED</h4>
+<p>Debemos definir en el scriptlos siguientes parametros</p>
+<ul>
+    <li>ifIndex</li>
+    <li>ipParam</li>
+    <li>dnsParams</li>
+</ul> 
 <div align="center">
   <img src="img/conf/red.png">
 </div>
