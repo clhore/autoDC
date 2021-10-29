@@ -55,3 +55,12 @@ CONFIGURACION
 <div align="center">
   <img src="img/conf/userGrup.png">
 </div>
+
+Ejecucion del script PowerShell
+======
+<div align="center">
+  <h4>Una vez ya hemos configurado todos los parametros necesarios, procedemos ha ejecutar PowerShell en Windows Server 2016 y importamos el modulo.</h4>
+</div>
+
+    Import-Module .\autoDC
+
