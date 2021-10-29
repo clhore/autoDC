@@ -15,5 +15,9 @@ Este escript está realizado para Windows Server 2016 por lo que si se ejecuta e
 CONFIGURACION
 ======
 <h4>INTERFAZ DE RED</h4>
+<div align="center">
+  <img src="img/conf/red">
+</div>
+
 <h4>NOMBRE DEL EQUIPO Y DOMINIO</h4>
 <h4>USUARIOS Y GRUPOS</h4>
