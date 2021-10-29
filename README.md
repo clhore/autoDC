@@ -1,5 +1,11 @@
 <div align="center">
   <h1>autoDC</h1>
+<h1>  	         _        _____   _____ </h1>
+<h1>	          | |      |  __ \ / ____|</h1>
+<h1>  __ _ _   _| |_ ___ | |  | | |     </h1>
+<h1> / _` | | | | __/ _ \| |  | | |     </h1>
+<h1>| (_| | |_| | || (_) | |__| | |____ </h1>  
+<h1> \__,_|\__,_|\__\___/|_____/ \_____|</h1>
   <h4>Esta herramienta esta creada con el fin de automatizar la creación de un DC, la creación de grupos y usuarios utilizando PowerShell.</h4>
 </div>
 <ul>
