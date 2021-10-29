@@ -16,7 +16,7 @@ CONFIGURACION
 ======
 <h4>INTERFAZ DE RED</h4>
 <div align="center">
-  <img src="img/conf/red">
+  <img src="img/conf/red.png">
 </div>
 
 <h4>NOMBRE DEL EQUIPO Y DOMINIO</h4>
