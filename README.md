@@ -115,5 +115,7 @@ Ejecucion del script PowerShell
     namePc_and_domainServicesInstallation_2
     
 <div align="center">
-  <img src="img/autoDC_6.png">
+  <img src="img/autoDC_6.png"><br>
+  <img src="img/autoDC_7.png"><br>
+  <img src="img/autoDC_8.png"><br>
 </div>
