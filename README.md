@@ -119,3 +119,19 @@ Ejecucion del script PowerShell
   <img src="img/autoDC_7.png"><br>
   <img src="img/autoDC_8.png"><br>
 </div>
+
+<div align="center">
+  <h4>Es posible que se quede en una pantalla de carga durante un largao periodo de tiempo, no apages el equipo y deja que acabe.</h4>
+</div>
+  
+<div align="center">
+  <img src="img/autoDC_9.png"><br>
+</div>
+
+<div align="center">
+  <h4>Una vez inicie si no a aavido ningun error el equipo deveria de quedar configurado como un DC.</h4>
+</div>
+    
+<div align="center">
+  <img src="img/autoDC_10.png"><br>
+</div>
