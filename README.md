@@ -35,3 +35,4 @@ CONFIGURACION
   <img src="img/conf/userDomain.png">
 </div>
 <h4>USUARIOS Y GRUPOS</h4>
+<p>En este caso no es obligatorio rellenarlo. Y aque la creacion de grupos y usuarios desde el script de powershell no es obligatoria.</p>
