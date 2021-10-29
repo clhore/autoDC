@@ -47,6 +47,10 @@ CONFIGURACION
       <dd>Nombre completo del usuario. Solo se puede poner el nombre y un apellido si pones dos apellidos, el 2º apellido no se usara.</dd>
     </dl>
     <li>domainName</li>
+    <dl>
+      <dt>ADGroups</dt>
+      <dd>Nombre del grupo.</dd>
+    </dl>
 </ul> 
 <div align="center">
   <img src="img/conf/userGrup.png">
