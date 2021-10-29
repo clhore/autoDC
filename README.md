@@ -69,7 +69,7 @@ Ejecucion del script PowerShell
 </div>
 
 <div align="center">
-  <h4>Ejecutamos la funcion helpPanel.</h4>
+  <h4>Ejecutamos la funcion helpPanel. Y seguimos los pasos que nos indica.</h4>
 </div>
 
     helpPanel
