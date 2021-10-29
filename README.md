@@ -26,6 +26,11 @@ CONFIGURACION
 </div>
 
 <h4>NOMBRE DEL EQUIPO Y DOMINIO</h4>
+<p>Debemos definir en el scriptlos siguientes parametros</p>
+<ul>
+    <li>namePc</li>
+    <li>domainName</li>
+</ul> 
 <div align="center">
   <img src="img/conf/userDomain.png">
 </div>
