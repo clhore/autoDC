@@ -46,8 +46,8 @@ $Global:ADPasswords = @('P@ssw0rd', 'P@ssw0rd')
 $Global:ADUserNames = @('Adrian Lujan', '')
 
 # Grupos a crear
-$Global:ADGroups = @('G_PRUEBA')
-$Global:GroupScopeSelect = @('DomainLocal')
+$Global:ADGroups = @('G_PRUEBA', 'G_PRUEBA2', 'G_PRUEBA3')
+$Global:GroupScopeSelect = @('DomainLocal', 'DomainLocal', 'DomainLocal')
 
 # Panel de ayuda
 function helpPanel {
